@@ -51,7 +51,7 @@ corsMsg.acceptCorsScript('GET_USER_INFO', async function () {
 async function demo2_sender() {
     await corsMsg.sendCorsScript({
         scriptName:'SET_USER_INFO',
-        scriptString:`window.currentUserInfo=${JSON.stringify({username:'李四',age:18})}`
+        scriptString:`window.currentUserInfo=${JSON.stringify({username:'李四',age:18})}` //这段代码实际上在父业面执行
     });
 }
 
