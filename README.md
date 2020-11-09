@@ -5,7 +5,9 @@
 实现了父子页面之间类似 request / response 的通信方式。
 
 
-# demo1 ： iframe 子页面请求从父业面中获取用户信息
+### 例子一 
+ 
+ iframe 子页面请求从父业面中获取用户信息
 
 ```javascript
 
@@ -39,8 +41,11 @@ corsMsg.acceptCorsScript('GET_USER_INFO', async function () {
 
 
 
+### 例子二 
 
-# demo2 : iframe 子页面直接在父业面中执行脚本
+
+iframe 子页面直接在父业面中执行脚本
+
 
 ```javascript
 
