@@ -1,6 +1,4 @@
-# cors-msg
-
-# 用来跨域iframe父子页面之间通信
+# 跨域 iframe父子页面之间通信
 
 实现了父子页面之间类似 request / response 的通信方式。
 
