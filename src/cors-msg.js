@@ -57,7 +57,7 @@ class CorsMsg {
                     result = await executor({scriptName, scriptId, scriptString, evt});
                 } else {
                     let function1 = new Function(scriptString);
-                    function1();
+                    result = await function1();
                 }
             } catch (e) {
                 console.log('onScript', e);
